@@ -36,8 +36,12 @@
   "license": "MIT",
   "main": "index.js",
   "name": "gdax-api",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaykshah/gdax-api.git"
+  },
   "scripts": {
     "test": "mocha --ui qunit --bail --reporter list tests/*.js"
   },
-  "version": "0.4.2"
+  "version": "0.5.0"
 }
